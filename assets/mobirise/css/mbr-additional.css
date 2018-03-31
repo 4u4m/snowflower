@@ -1700,7 +1700,6 @@ body {
 .cid-qNQRKJ0Qqy {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #b2ccd2;
 }
 .cid-qNQRKJ0Qqy p {
   color: #767676;
@@ -1759,6 +1758,14 @@ body {
   .cid-qNQRKJ0Qqy .mbr-section-btn {
     text-align: center !important;
   }
+}
+.cid-qNQRKJ0Qqy .mbr-text,
+.cid-qNQRKJ0Qqy .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-qNQRKJ0Qqy .mbr-title,
+.cid-qNQRKJ0Qqy .underline {
+  color: #ffffff;
 }
 .cid-qN3M8SDmeo {
   padding-top: 90px;
@@ -2049,10 +2056,12 @@ body {
 .cid-qNKwzD0ykv .navbar .mbr-overlay {
   transition: all .3s;
   background: #ffffff;
+  background: linear-gradient(#a38dfd, #ffffff);
 }
 .cid-qNKwzD0ykv .navbar.opened .mbr-overlay {
   transition: all .3s;
   background: #ffffff !important;
+  background: linear-gradient(#a38dfd, #ffffff) !important;
 }
 .cid-qNKwzD0ykv .navbar .dropdown-item {
   padding: .25rem 1.5rem;
@@ -2169,6 +2178,7 @@ body {
 }
 .cid-qNKwzD0ykv .navbar.navbar-short .mbr-overlay {
   background: #ffffff !important;
+  background: linear-gradient(#a38dfd, #ffffff) !important;
 }
 .cid-qNKwzD0ykv .navbar.navbar-short .navbar-logo img {
   height: 3rem !important;
@@ -2310,7 +2320,7 @@ body {
 .cid-qNKwzD0ykv .menu-top {
   text-align: center;
   width: 100%;
-  background-color: #2f95e9;
+  background-color: #bf94f9;
   padding: .5rem 0;
 }
 .cid-qNKwzD0ykv .full-link {
